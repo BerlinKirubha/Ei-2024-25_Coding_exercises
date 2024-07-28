@@ -32,4 +32,4 @@ Behavioural design patterns deal with communication between objects, how they in
 ---
 ---
 
-## Exercise 2: Problem Statements for Mini-projects - Virtual Classroom Manager
+## Exercise 2: Problem Statements for Mini-projects - **Virtual Classroom Manager**
