@@ -80,7 +80,7 @@ A web application to manage virtual classrooms for teachers and students.
     ```sql
     USE virtualvirtual_classroom_manager;
 3. Configure the database connection 
-    - Open `db.php` and update the database connection details:
+    - Open `database.php` and update the database connection details:
     ```php
     <?php
     $servername = "localhost";
