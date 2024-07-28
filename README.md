@@ -7,9 +7,9 @@
 Design patterns are **solutions to common problems**, **best practices**, or **code standards** in software design.
 
 #### Table of Contents
-1. [Creational Design Pattern](#creational-design-pattern)
-2. [Structural Design Pattern](#structural-design-pattern)
-3. [Behavioural Design Pattern](#behavioural-design-pattern)
+1. Creational Design Pattern
+2. Structural Design Pattern
+3. Behavioural Design Pattern
 
 ---
 
