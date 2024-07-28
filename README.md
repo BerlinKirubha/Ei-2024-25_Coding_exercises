@@ -35,6 +35,10 @@ Behavioural design patterns deal with communication between objects, how they in
 ## Exercise 2: Problem Statements for Mini-projects - *Virtual Classroom Manager*
 
 A web application to manage virtual classrooms for teachers and students. 
+## Features
+- User registration and login for teachers and students.
+- Teachers can create classrooms, add students and create assignments for their classrooms.
+- Students can view their classrooms, assignments and submit assignments.
 
 ## Tech Stack
 
@@ -53,7 +57,4 @@ A web application to manage virtual classrooms for teachers and students.
 
 - **Apache**: Web server used to serve the application.
 
-## Features
-- User registration and login for teachers and students.
-- Teachers can create classrooms, add students and create assignments for their classrooms.
-- Students can view their classrooms, assignments and submit assignments.
+
