@@ -65,7 +65,7 @@ A web application to manage virtual classrooms for teachers and students.
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/virtual-classroom-manager.git
+    https://github.com/yourusername/Ei-2024-25_Coding_exercises.git
     ```
 
 2. **Set up the database:**
