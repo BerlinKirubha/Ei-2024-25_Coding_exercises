@@ -57,4 +57,44 @@ A web application to manage virtual classrooms for teachers and students.
 
 - **Apache**: Web server used to serve the application.
 
+## Prerequisites
 
+- PHP 7.x or higher
+- MySQL 5.x or higher
+- A web server like Apache or Nginx
+
+## Installation
+
+1.Clone the repository:
+
+    ```bash
+    git clone https://github.com/yourusername/virtual-classroom-manager.git
+    ```
+2. Set up the database - Open your MySQL client and create the database:
+    - Open your MySQL client and create the database:
+    ```sql
+    CREATE DATABASE virtual_classroom_manager;
+    ```
+    - Use the `virtual_classroom_manager` database and create the necessary tables:
+
+    ```sql
+    USE virtualvirtual_classroom_manager;
+3. Configure the database connection 
+    - Open `db.php` and update the database connection details:
+    ```php
+    <?php
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "virtual_classroom_manager";
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+    ?>
+    ```
+4. Start your web server and navigate to the project directory:
+    - For Apache, place the project in the `htdocs` directory.
+5.Open your web browser and navigate to `http://localhost/virtual-classroom-manager/index.html`.
