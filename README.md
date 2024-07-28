@@ -1,7 +1,7 @@
 # Ei-2024-25_Coding_exercises
 Educational Initiatives
 
-### Exercise 1: Problem Statement on Design Patterns
+## Exercise 1: Problem Statement on Design Patterns
 Design Pattern: **Solution to common problems** or **best practices** or **code standards** in software design.
 
 #### Table of Contents
@@ -29,4 +29,7 @@ Behavioural design patterns deal with communication between objects, how they in
 - **Strategy**: Encapsulates an algorithm inside a class.
 - **Mediator**: Defines simplified communication between classes.
 
+---
+---
 
+## Exercise 2: Problem Statements for Mini-projects - Virtual Classroom Manager
