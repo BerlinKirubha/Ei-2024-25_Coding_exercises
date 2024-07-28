@@ -32,4 +32,28 @@ Behavioural design patterns deal with communication between objects, how they in
 ---
 ---
 
-## Exercise 2: Problem Statements for Mini-projects - **Virtual Classroom Manager**
+## Exercise 2: Problem Statements for Mini-projects - *Virtual Classroom Manager*
+
+A web application to manage virtual classrooms for teachers and students. 
+
+## Tech Stack
+
+### Frontend
+
+- **HTML5**: Markup language used for structuring and presenting content on the web.
+- **CSS3**: Style sheet language used for describing the presentation of a document written in HTML.
+- **JavaScript**: Programming language used to create dynamic and interactive effects within web browsers.
+
+### Backend
+
+- **PHP**: Server-side scripting language designed for web development.
+- **MySQL**: Open-source relational database management system.
+
+### Server
+
+- **Apache**: Web server used to serve the application.
+
+## Features
+- User registration and login for teachers and students.
+- Teachers can create classrooms, add students and create assignments for their classrooms.
+- Students can view their classrooms, assignments and submit assignments.
