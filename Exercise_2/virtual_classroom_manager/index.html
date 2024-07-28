@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Classroom Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Virtual Classroom Manager</h1>
+        <div id="auth-forms">
+            <h2>Login</h2>
+            <input type="text" id="login-username" placeholder="Username">
+            <input type="password" id="login-password" placeholder="Password">
+            <button onclick="login()">Login</button>
+            <h2>Register</h2>
+            <input type="text" id="register-id" placeholder="Register Number">
+            <input type="text" id="register-username" placeholder="Username">
+            <input type="password" id="register-password" placeholder="Password">
+            <select id="register-role">
+                <option value="teacher">Teacher</option>
+                <option value="student">Student</option>
+            </select>
+            <button onclick="register()">Register</button>
+        </div>
+
+        <div id="teacher-interface">
+            <h2>Teacher Dashboard</h2>
+            <div id="classrooms"></div>
+            <div id="students"></div>
+            <div id="assignments"></div>
+           
+            <div id="teacher-operations">
+                <button onclick="showAddClassroom()">Add Classroom</button>
+                <button onclick="showAddStudent()">Add Student</button>
+                <button onclick="showCreateAssignment()">Create Assignment</button>
+            </div>
+        </div>
+        
+        <div id="student-interface">
+            <h2>Student Dashboard</h2>
+            <div id="assignment-list"></div>
+            <div id="submission-list"></div>
+            <div id="student-operations">
+                <button onclick="showSubmitAssignment()">Submit Assignment</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>

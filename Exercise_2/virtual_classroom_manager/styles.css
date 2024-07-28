@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+#app {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+#auth-forms {
+    margin-bottom: 20px;
+}
+
+input, select, textarea {
+    display: block;
+    width: calc(100% - 22px); /* Adjust for padding and border */
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#teacher-interface, #student-interface {
+    display: none;
+    margin-top: 20px;
+}
+
+#teacher-operations, #student-operations {
+    margin-top: 20px;
+}
+
+#classroom-list, #assignment-list, #submission-list {
+    margin-top: 20px;
+}
+
+#classroom-list p, #assignment-list p, #submission-list p {
+    background: #e9ecef;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
